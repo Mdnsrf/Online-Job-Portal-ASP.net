@@ -1,0 +1,75 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Data.SqlClient;
+using System.Data;
+using System.Net;
+using System.IO;
+
+public partial class forgetpasswordcompany : System.Web.UI.Page
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+
+    }
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+         DataSet ds = new DataSet();
+
+        ds = Class1.select("select * from reg where email  ='" + txemail.Text + "' AND contact='"+txmobile.Text+"'");
+
+        if (ds != null && ds.Tables[0].Rows.Count > 0)
+        {
+            DataRow dr = ds.Tables[0].Rows[0];
+            TextBox1.Text = dr["password"].ToString();
+            TextBox2.Text = dr["contact"].ToString();
+
+
+
+            string mobile, message;
+
+            mobile = TextBox2.Text.ToString();
+            message = String.Concat("PASSWORD FOR YOUR TALENT HUB ACCOUNT IS:", TextBox1.Text.ToString()," DO NOT SHARE THIS WITH ANYONE.");
+            string x1 = apicall("http://smscp.paceinfonet.com/api/sendmsg.php?user=dhavalpatel&pass=dhaval$R$patel&sender=NAAVID&phone=" + mobile + " &text=" + message + " &priority=ndnd&stype=normal");
+            Label1.Text = "Password is sent to your registered mobile number.";
+
+
+        }
+        else
+        {
+            Label1.Text = "invalid combination entered. PLEASE TRY AGAIN";
+        }
+
+    }
+
+    public string apicall(string url)
+    {
+        HttpWebRequest httpreq = (HttpWebRequest)WebRequest.Create(url);
+
+        try
+        {
+
+            HttpWebResponse httpres = (HttpWebResponse)httpreq.GetResponse();
+
+            StreamReader sr = new StreamReader(httpres.GetResponseStream());
+
+            string results = sr.ReadToEnd();
+
+            sr.Close();
+            return results;
+
+        }
+        catch
+        {
+            return "0";
+        }
+    }
+ }
