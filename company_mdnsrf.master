@@ -1,0 +1,193 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="company_mdnsrf.master.cs" Inherits="company_mdnsrf" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+  
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+
+<!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            font-size: medium;
+            color: #000000;
+        }
+        </style>
+</head>
+
+<body>
+<div id="rainbow">
+	<div id="header" class="container">
+		<div id="logo">
+			<h1><span class="fa fa-bug"></span><a href="#">Untamed</a></h1>
+		<div id="menu">
+			<ul>
+				<li class="current_page_item"><a href="index.html" accesskey="1" title="">Homepage</a></li>
+				<li><a href="Company_login.aspx" accesskey="1" title="">COMPANY</a></li>
+				<a href="jobseeker_reg11.aspx" accesskey="3" title="">APPLICANT</a>
+				<li><a href="admin_login.aspx" accesskey="4" title="">ADMIN</a></li>
+				<li><a href="#" accesskey="5" title="">Contact Us</a></li>
+			</ul>
+		</div>
+		</div>
+	</div>
+</div>
+
+<div id="wrapper">
+<div id="page" class="container">
+		<div id="content">
+
+
+
+        <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+			<div>
+                GGGGGGGGGGGGG<br />
+                <br />
+                <br />
+                <br />
+                opoo<br />
+                <br />
+                <br />
+                GGGGGGGGGGGGG
+           </div>
+
+
+            </asp:ContentPlaceHolder>
+    </div>
+    </form>
+
+
+
+
+
+
+		</div>
+
+        
+		<div id="sidebar" class="reel"><span class="style1">CARRIER LINKS<br />
+         </span>
+        <marquee scrollamount=5 direction="up" onmouseover="stop();"  onmouseout="start();"
+                style="height: inherit; font-family: Arial, Helvetica, sans-serif;">acedemics<br />
+            &bull; University Grants Commission - <a href="http://www.ugc.ac.in/"  target="_blank">www.ugc.ac.in</a><br />
+            &bull; Central Board Of Secondary Education - <a href="http://www.cbse.nic.in/"  target="_blank">www.cbse.nic.in</a><br />
+            &bull; Delhi University - <a href="http://www.du.ac.in/"  target="_blank">www.du.ac.in</a><br />
+            &bull; Jawaharlal Nehru University - <a href="http://www.jnu.ac.in/"  target="_blank">www.jnu.ac.in</a><br />
+            &bull; National Council for Teacher Education - <a href="http://www.ncte-in.org/"  target="_blank">www.ncte-in.org</a><br />
+            &bull; National Council for Educational Research &amp; Training - <a href="http://www.ncert.nic.in/"  target="_blank">www.ncert.nic.in</a><br />
+            &bull; Ministry of HRD (Education) - <a href="http://www.education.nic.in/"  target="_blank">www.education.nic.in<br />
+            <br />
+            <br />
+            <br />
+            aviation<br />
+            &bull; Directorate General of Civil Aviation - <a href="http://www.dgca.nic.in/"  target="_blank">www.dgca.nic.in</a><br />
+            &bull; IATA training - <a href="http://www.iata.org/"  target="_blank">www.iata.org</a><br />
+            &bull; Ministry of Civil Aviation - <a href="http://www.civilaviation.nic.in/"  target="_blank">www.civilaviation.nic.in</a><br />
+            &bull; Indira Gandhi Rashtriya Uran Akademi - <a href="http://www.igrua.gov.in/"  target="_blank">www.igrua.gov.in</a>
+            <br />
+            <br />
+            <br />
+            banking<br />
+            &bull; Reserve Bank of India - <a href="http://www.rbi.org.in/"  target="_blank">www.rbi.org.in</a><br />
+            &bull; State Bank of India - <a href="http://www.statebankofindia.com/"  target="_blank">www.statebankofindia.com</a><br />
+            &bull; Panjab National Bank - <a href="http://www.pnbindia.com/"  target="_blank">www.pnbindia.com</a><br />
+            &bull; Corporation Bank - <a href="http://www.corpbank.com/"  target="_blank">www.corpbank.com</a>
+            <br />
+            <br />
+            <br />
+            civil cervices<br />
+            &bull; Union Public Service Commission - <a href="http://www.upsc.gov.in/"  target="_blank">www.upsc.gov.in/</a><br />
+            &bull; Staff Selection Commission - <a href="http://ssc.nic.in/"  target="_blank">ssc.nic.in</a><br />
+            &bull; Department of Personal &amp; Training - <a href="http://www.dopt.nic.in/"  target="_blank">www.dopt.nic.in
+            <br />
+            <br />
+            <br />
+            Engineering<br />
+            &bull; All India Council of Technical Education - <a href="http://www.aicte.ernet.in/"  target="_blank">www.aicte.ernet.in</a> <br />
+            &bull; The Institutions of Engineers (India) - <a href="http://www.ieindia.org/"  target="_blank">http://www.ieindia.org</a><br />
+            &bull; IIT-Kharagpur - <a href="http://www.iitkgp.ac.in/"  target="_blank">www.iitkgp.ac.in</a><br />
+            &bull; Bureau of Energy Efficiency - <a href="http://www.bee.gov.in/"  target="_blank">www.bee.gov.in</a><br />
+            &bull; Distance Education Council for distance education in Engineering - <a href="http://www.dec.ac.in/"  target="_blank">www.dec.ac.in</a> <br />
+            &bull; Joint Entrance Examination (Orissa) - <a href="http://www.jeeorissa.com/"  target="_blank">www.jeeorissa.com</a>
+            <br />
+            <br />
+            <br />
+            Finance<br />
+            &bull; The Institute Of Chartered Accountant &ndash; <a href="http://www.icai.org/"  target="_blank">www.icai.org </a><br />
+            &bull; The Institute Of Company Secretaries of India &ndash; <a href="http://www.icsi.edu/"  target="_blank">www.icsi.edu</a><br />
+            &bull; National Stock exchange of India - <a href="http://www.nseindia.com/"  target="_blank">www.nseindia.com</a><br />
+            &bull; Bombay Stock exchange - <a href="http://www.bseindia.com/"  target="_blank">www.bseindia.com</a><br />
+            &bull; Indian Institute of Banking &amp; Finance &ndash; <a href="http://www.iibf.org.in/"  target="_blank">www.iibf.org.in</a><br />
+            &bull; Indian Institute of Statistical Institute - <a href="http://www.isical.ac.in/"  target="_blank">www.isical.ac.in </a>
+            <br />
+            <br />
+            <br />
+            hospitality<br />
+            &bull; Incredible India - <a href="http://www.incredibleindia.org/"  target="_blank">www.incredibleindia.org</a><br />
+            &bull; Ministry of Tourism - <a href="http://www.tourisminindia.com/"  target="_blank">www.tourisminindia.com</a>
+            <br />
+            <br />
+            <br />
+            pharmecy<br />
+            &bull;	Academy for Clinical Excellence (ACE) - <a href="http://www.aceindia.org/"  target="_blank">www.aceindia.org</a><br />
+			&bull;	Institute of Clinical Research (ICRI) - <a href="http://www.icriindia.com/"  target="_blank">www.icriindia.com </a><br />
+			&bull;	Bombay College of Pharmacy - <a href="http://www.bcpindia.org/"  target="_blank">www.bcpindia.org</a><br />
+			&bull;	Jamia Hamdarad Islamia - <a href="http://www.jmi.ac.in/"  target="_blank">www.jmi.ac.in</a><br />
+			&bull;	National Institute of Pharmaceutical Education & Research (NIPER). S.A.S. Nagar, Punjab - <a href="http://www.niper.gov.in/"  target="_blank">www.niper.nic.in</a><br />
+			&bull;	Guru Jambeshwar University, Hisar - <a href="http://www.gjust.ac.in/"  target="_blank">www.gju.ernet.in</a>
+            <br />
+            <br />
+            <br />
+            retail<br />
+            &bull;	Indian Institute of Social Welfare and Business Management, Kolkata - <a href="http://www.iiswbm.edu/"  target="_blank">www.iiswbm.edu</a><br />
+			&bull;	CII Institute of Logistics, Chennai - <a href="http://www.ciilogistics.com/"  target="_blank">www.ciilogistics.com</a><br />
+			&bull;	Gobind Ballabh Pant University - <a href="http://www.gbpuat.ac.in/"  target="_blank">www.gbpuat.ac.in</a><br />
+			&bull;	Annamalai University - <a href="http://www.annauniv.edu/"  target="_blank">www.annauniv.edu</a><br />
+			&bull;	Indian Institute of Foreign Trade, - <a href="http://www.iift.edu/"  target="_blank">www.iift.edu</a>
+            <br />
+            <br />
+            <br />
+            Railways<br />
+            &bull;	Indian Railways - <a href="http://www.indianrail.gov.in/"  target="_blank">www.indianrail.gov.in</a> <br />
+            &bull;	Indian Railways - <a href="http://www.indianrailways.gov.in/"  target="_blank">www.indianrailways.gov.in</a> <br />
+            &bull;	Ministry of Railways - <a href="http://www.railnet.gov.in/"  target="_blank">www.railnet.gov.in</a><br />
+            &bull;	IRCON - <a href="http://www.ircon.org/"  target="_blank">www.ircon.org</a><br />
+            &bull;	Indian Railway Catering and Tourism Corporation Ltd. - <a href="http://www.irctc.co.in/"  target="_blank">www.irctc.co.in</a>
+            <br />
+            <br />
+            <br />
+            science<br />
+            &bull;	Jawaharlal Nehru Technological University - <a href="http://www.jntu.ac.in/"  target="_blank">www.jntu.ac.in</a><br />
+			&bull;	IIT Bombay - <a href="http://www.iitb.ac.in/"  target="_blank">www.iitb.ac.in</a><br />
+			&bull;	Mumbai University - <a href="http://www.mu.ac.in/"  target="_blank">www.mu.ac.in</a><br />
+			&bull;	Indian School of Mines, Dhanbad - <a href="http://www.ismdhanbad.ac.in/"  target="_blank">www.ismdhanbad.ac.in</a><br />
+			&bull;	CSIR-UGC (NET) - <a href="http://www.csirhrdg.res.in/"  target="_blank">www.csirhrdg.res.in</a><br />
+			&bull;	Indian Council of Medical Research, - <a href="http://www.icmr.nic.in/"  target="_blank">www.icmr.nic.in</a><br />
+			&bull;	Birla Institute of Technology, Ranchi - <a href="http://www.bitmesra.ac.in/"  target="_blank">www.bitmesra.ac.in</a><br />
+			&bull;	Madurai Kamaraj University, Madurai - <a href="http://www.mkudde.org/"  target="_blank">www.mkudde.org</a><br />
+			&bull;	Indian Institute of Technology, Kharagpur - <a href="http://www.iitkgp.ernet.in/"  target="_blank">www.iitkgp.ernet.in</a><br />
+			&bull;	Central Institute of Fisheries Nautical and Engineering Training - <a href="http://www.cifnet.nic.in/"  target="_blank">www.cifnet.nic.in</a><br />
+			&bull;	Bioinformatics Institute of India - <a href="http://www.bioinformaticscentre.org/"  target="_blank">www.bioinformaticscentre.org</a>
+            
+            </marquee>
+            </div>
+	</div>
+</div>
+<div id="copyright" class="container">
+	<p>&copy; Untitled. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
+</div>
+</body>   
+
+</html>
