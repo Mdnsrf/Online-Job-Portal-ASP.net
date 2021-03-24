@@ -1,0 +1,97 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage3.master.cs" Inherits="MasterPage3" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="JScript.js"></script>
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+
+<body>
+   
+   <div id="rainbow">
+	<div id="header" class="fa-text-height">
+		<div id="logo">
+			<h1><span class="fa fa-bug"></span>TALENT HUB</h1>
+		</div>
+		<div id="menu">
+			<ul>
+				
+				<li><a href="jobseeker_profile.aspx" accesskey="1" title="">profile</a></li>
+				<li><a href="JOBSEEKER_HOME.aspx" accesskey="2" title="">search job</a></li>
+				<li><a href="jobseeker_reg_experience.aspx" accesskey="4" title="">add experience</a></li>
+				<li><a href="jobseeker_reg_qualification.aspx" accesskey="5" >add qualification</a></li>
+                <li><a href="job_status_before.aspx" accesskey="6">status</a></li>
+                <li><a href="jobseeker_reg11.aspx" accesskey="7" title="">LOGOUT</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div id="canvas-complex">
+</div>
+<div id="wrapper">
+<div id="page" class="container" style="overflow: scroll; width: auto;" dir="ltr">
+
+
+ <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+
+
+
+          
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+
+		
+		
+			
+			
+		
+	</div>	
+</div>
+<div id="copyright" class="container">
+	<p>&copy; Untitled. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
+</div>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+<ul>
+				
+				<li><a href="jobseeker_profile.aspx" accesskey="1" title="">profile</a></li>
+				<li><a href="JOBSEEKER_HOME.aspx" accesskey="2" title="">search job</a></li>
+				<li><a href="jobseeker_reg_experience.aspx" accesskey="4" title="">add experience</a></li>
+				<li><a href="jobseeker_reg_qualification.aspx" accesskey="5" >add qualification</a></li>
+                <li><a href="job_status_before.aspx" accesskey="6">status</a></li>
+                <li><a href="jobseeker_reg11.aspx" accesskey="7" title="">LOGOUT</a></li>
+			</ul>
+
+
+
