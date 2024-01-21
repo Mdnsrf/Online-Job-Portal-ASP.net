@@ -42,7 +42,7 @@ public partial class forgetpassword : System.Web.UI.Page
 
             mobile = TextBox2.Text.ToString();
             message = String.Concat("PASSWORD FOR YOUR TALENT HUB ACCOUNT IS:", TextBox1.Text.ToString()," DO NOT SHARE THIS WITH ANYONE.");
-            string x1 = apicall("http://smscp.paceinfonet.com/api/sendmsg.php?user=dhavalpatel&pass=dhaval$R$patel&sender=NAAVID&phone=" + mobile + " &text=" + message + " &priority=ndnd&stype=normal");
+            string x1 = apicall("" + mobile + " &text=" + message + " &priority=ndnd&stype=normal");
 
 
 
